@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #66b4af;
+  padding-top: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo_img {
+  width: 248px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+ul li a:hover {
+  color: #bff1ee;
+  transform: rotateY(20deg);
+}
+
+.first_section {
+  background-color: #66b4af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first_page {
+  color: white;
+  margin-left: 25px;
+}
+
+.first_page h1 {
+  font-size: 47px;
+}
+
+.first_page p {
+  font-size: 18px;
+  padding: 24px 0px 30px 0px;
+  line-height: 25px;
+}
+
+.first_page button {
+  padding: 13px;
+  width: 150px;
+  color: #66b4af;
+  font-size: 15px;
+  border-radius: 16px;
+  font-weight: 700;
+  border: 0;
+  outline: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.first_page button:hover {
+  border: 2px solid white;
+  background-color: #66b4af;
+  color: white;
+}
+
+.first_page .first_page_sec_btn {
+  background-color: #66b4af;
+  color: white;
+  border: 1px solid white;
+}
+
+.first_page .first_page_sec_btn:hover {
+  background-color: white;
+  border: 2px solid #66b4af;
+  color: #66b4af;
+}
+
+.first_doctor {
+  width: 410px;
+  margin-bottom: -4px;
+}
+
+.mid_icons {
+  width: 32px;
+  margin: 0px 10px;
+}
+
+.find_help {
+  background: #e8e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.find_help div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 15px;
+  border-radius: 2px;
+  color: white;
+  font-weight: 500;
+}
+
+.find_help p {
+  font-size: 19px;
+} 
+
+.icon1 {
+  background:  #4382e1;
+  padding: 10px;
+}
+
+.icon2 {
+  background: #14d3a6;
+  padding: 10px;
+} 
+
+.icon3 {
+  background: #cb7070;
+  padding: 10px;
+}
+
+.surgeon_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 100px 0px 0px;
+}
+
+.surgeon_section img {
+  width: 659px;
+}
+
+.surgeon_section .about_page {
+  /* margin-left: -10%; */
+}
+
+.surgeon_section h2 {
+  font-size: 30px;
+}
+
+.surgeon_section p {
+  padding: 24px 0px;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.surgeon_section button {
+  padding: 13px;
+  width: 150px;
+  cursor: pointer;
+  background-color: #4382e1;
+  color: white;
+  font-size: 20px;
+  border-radius: 16px;
+  font-weight: 500;
+  border: 0;
+  outline: 0;
+}
+
+.surgeon_section button a {
+  text-decoration: none;
+  color: white;
+}
+
+.services_header {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.services_header h3 {
+  padding-bottom: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.health {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 92px 0px 92px 0px;
+  /* text-align: center; */
+}
+
+.health img {
+  width: 95px;
+}
+.health .dental {
+  width: 60px;
+}
+
+.health .arrows {
+  width: 35px;
+}
+
+.treatment_plan h4{
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.treatment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trat {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #66b4af;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+.trat:hover {
+  background-color: #66b4af;
+  color: white;
+}
+
+.trat div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.trat h5{
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.trat h1{
+  font-size: 58px;
+  padding: 10px 0px;
+}
+
+.trat p{
+  font-size: 18px;
+  padding: 10px 0px;
+}
+
+.trat button{
+  width: 140px;
+  padding: 13px;
+  background-color: white;
+  border: 2px solid #66b4af;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  outline: 0;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.trat button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: #66b4af;
+  opacity: 0.9;
+  /* color: white; */
+}
+
+.trat span {
+  font-size: 37px;
+}
+
+.testimonies {
+  margin-top: 40px;
+}
+
+.testimonies h4 {
+  text-align: center;
+  font-size: 32px;
+  margin: 80px 0px 30px 0px;
+}
+
+.inner_testy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner_testy .test_1 {
+  width: 513px;
+  margin: 10px 22px;
+  border: 2px solid #66b4af;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.testy_info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.testy_info div {
+  margin: 0px 85px 0px 15px;
+}
+
+.testy_info .star {
+  width: 150px;
+}
+
+.icon_per {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.headp6 .hed6 {
+  font-size: 17px;
+}
+
+.headp6 .work {
+  font-size: 15px;
+  color: #14d3a6;
+  margin-top: 3px;
+}
+
+.headp6 {
+  margin: 0px 10px;
+}
+
+.post {
+  margin-left: 40px;
+}
+
+.post p {
+  font-size: 18px;
+}
+
+.star_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.details {
+  background: url(./Iconscout/Rectangle\ 47.png) no-repeat center;
+  border-radius: 3px;
+  margin: 30px;
+}
+
+.details h3 {
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 32px;
+  color: white;
+}
+
+.details_flex {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.flex1 {
+  background-color: white;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.flex1 h2 {
+  padding: 20px 20px 0px;
+  font-size: 32px;
+}
+
+.flex1 input {
+  width: 200px;
+  padding: 25px 20px 25px 10px;
+  margin: 15px 0px 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #e8e5e5;
+}
+
+.flex1 input::placeholder {
+  color: black;
+  font-weight: 500;
+}
+
+.flex1 .complain {
+  width: 92%;
+  height: 100px;
+}
+
+.sub_flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.sub_flex .complain::placeholder {
+  position: absolute;
+  top: 20%;
+}
+
+.flex2 {
+  background-color: white;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.flex2 div {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.flex2 div img {
+  padding-right: 20px;
+  width: 40px;
+}
+
+.flex2 div h4 {
+  font-size: 22px;
+}
+
+.flex2 p {
+  margin: 20px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.flex1 .sub_mit {
+  background-color: #4382e1;
+  width: 120px;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #66b4af;
+  color: white;
+  margin-top: 20px;
+}
+
+.foot_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0px 40px;
+}
+
+.foot {
+  display: flex;
+  align-items: center;
+  padding: 0px 90px;
+}
+
+.foot img {
+  width: 80px;
+  padding-right: 20px;
+}
+
+.foot h3 {
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+
+.foot p {
+  font-size: 18px;
+}
+
+.hr1 {
+  display: flex;
+  justify-content: center;
+}
+
+.hr1 hr {
+  width: 85%;
+}
+
+.quick_links {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  margin: 20px 0px;
+}
+
+.quick_links h2 {
+  font-size: 20px;
+}
+
+.quick {
+  /* margin-left: 100px; */
+}
+
+.service {
+  /* margin-right: 100px; */
+}
+
+.medias {
+  text-align: center;
+}
+
+.medias h4 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.medias img {
+  margin-right: 45px;
+}
+
+hr {
+  border: 1px solid #e8e5e5;
+  outline: none;
+}
+
+.hhr {
+  width: 1px;
+  height: 250px;
+}
+
+.footer h5 {
+  text-align: center;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
